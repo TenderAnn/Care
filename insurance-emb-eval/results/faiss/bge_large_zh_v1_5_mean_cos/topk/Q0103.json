@@ -1,0 +1,115 @@
+{
+  "qid": "Q0103",
+  "major": "exclusion",
+  "topic": "exclusion",
+  "top_chunks": [
+    {
+      "chunk_id": "e75df2b8db95",
+      "score": 0.7408357858657837,
+      "doc_id": "223003__sms"
+    },
+    {
+      "chunk_id": "9cbb92c025e7",
+      "score": 0.7348377108573914,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "f0a7c371158f",
+      "score": 0.7348377108573914,
+      "doc_id": "223004__history__version1__sms"
+    },
+    {
+      "chunk_id": "d83d9427dd49",
+      "score": 0.7339646220207214,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "09868e2bcfd2",
+      "score": 0.7339646220207214,
+      "doc_id": "223004__history__version1__sms"
+    },
+    {
+      "chunk_id": "9d3ff3e5339f",
+      "score": 0.7336059808731079,
+      "doc_id": "223003__sms"
+    },
+    {
+      "chunk_id": "133b23653fb7",
+      "score": 0.7329265475273132,
+      "doc_id": "223003__tk"
+    },
+    {
+      "chunk_id": "499a86a9d4da",
+      "score": 0.7321783900260925,
+      "doc_id": "223004__history__version1__sms"
+    },
+    {
+      "chunk_id": "f10415e746b7",
+      "score": 0.7310938835144043,
+      "doc_id": "223003__sms"
+    },
+    {
+      "chunk_id": "79d512917eb2",
+      "score": 0.7308560609817505,
+      "doc_id": "223003__sms"
+    },
+    {
+      "chunk_id": "85887b7b77f9",
+      "score": 0.7301788926124573,
+      "doc_id": "223005__sms"
+    },
+    {
+      "chunk_id": "87c769fcb6a4",
+      "score": 0.7294757962226868,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "7d692d4c50c5",
+      "score": 0.7282766699790955,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "8b280a38b71d",
+      "score": 0.7282410264015198,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "6672622a9502",
+      "score": 0.7279101610183716,
+      "doc_id": "223004__sms"
+    },
+    {
+      "chunk_id": "72ae90a25261",
+      "score": 0.7270534038543701,
+      "doc_id": "223003__sms"
+    },
+    {
+      "chunk_id": "038c64adbaac",
+      "score": 0.7262094616889954,
+      "doc_id": "223004__history__version1__sms"
+    },
+    {
+      "chunk_id": "fe112b37a269",
+      "score": 0.7259193062782288,
+      "doc_id": "223004__history__version1__sms"
+    },
+    {
+      "chunk_id": "3c75f1bd5ff4",
+      "score": 0.7258242964744568,
+      "doc_id": "223004__tk"
+    },
+    {
+      "chunk_id": "2088562a3c48",
+      "score": 0.7258242964744568,
+      "doc_id": "223004__history__version1__tk"
+    }
+  ],
+  "gold_passage": [
+    "e75df2b8db95"
+  ],
+  "gold_doc": [
+    "223003__flbe",
+    "223003__tk",
+    "223003__sms"
+  ]
+}

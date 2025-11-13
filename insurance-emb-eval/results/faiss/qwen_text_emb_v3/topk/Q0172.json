@@ -1,0 +1,115 @@
+{
+  "qid": "Q0172",
+  "major": "general",
+  "topic": "claim",
+  "top_chunks": [
+    {
+      "chunk_id": "98ef7b789fde",
+      "score": 0.8338856101036072,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "383fcb03e299",
+      "score": 0.8138514161109924,
+      "doc_id": "211013__sms"
+    },
+    {
+      "chunk_id": "9c1d15fa642c",
+      "score": 0.8045810461044312,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "2e73027d1d1c",
+      "score": 0.802439272403717,
+      "doc_id": "211013__sms"
+    },
+    {
+      "chunk_id": "c14b73e72a8b",
+      "score": 0.8023136258125305,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "22f271ee46a0",
+      "score": 0.801184892654419,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "ff16362939ac",
+      "score": 0.8000875115394592,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "8a2e2cb6a80a",
+      "score": 0.7985926270484924,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "384d1350176c",
+      "score": 0.7982960343360901,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "42c21e0b1816",
+      "score": 0.7979202270507812,
+      "doc_id": "211013__sms"
+    },
+    {
+      "chunk_id": "ee167eadf4ac",
+      "score": 0.7978525757789612,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "008bd0746d6f",
+      "score": 0.7964287996292114,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "806c73881bfe",
+      "score": 0.79608553647995,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "7d9c8a4de173",
+      "score": 0.7959326505661011,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "6225e78c97c4",
+      "score": 0.7956069111824036,
+      "doc_id": "211013__sms"
+    },
+    {
+      "chunk_id": "2293efc9292c",
+      "score": 0.7953894138336182,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "4ed147fd3e36",
+      "score": 0.7950704097747803,
+      "doc_id": "211013__flbe"
+    },
+    {
+      "chunk_id": "bc1e562f6d17",
+      "score": 0.7948386669158936,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "e0a82b5b6ae9",
+      "score": 0.7948053479194641,
+      "doc_id": "213026__flbe"
+    },
+    {
+      "chunk_id": "0a4a0f0932bb",
+      "score": 0.7944212555885315,
+      "doc_id": "213026__flbe"
+    }
+  ],
+  "gold_passage": [
+    "98ef7b789fde"
+  ],
+  "gold_doc": [
+    "211013__tk",
+    "211013__flbe",
+    "211013__sms"
+  ]
+}

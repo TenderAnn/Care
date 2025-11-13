@@ -1,0 +1,614 @@
+{
+  "qid": "Q0059",
+  "query": "《利安安享颐生（青竹2号）养老年金保险》（费率表）（编号 413005）费率表 是否属于养老型产品？依据是什么？",
+  "top_chunks": [
+    {
+      "chunk_id": "ed9417e7013d",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 16,
+      "faiss_rank": 10
+    },
+    {
+      "chunk_id": "a7af2aac2bbb",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 53,
+      "faiss_rank": 5
+    },
+    {
+      "chunk_id": "f5ff5768d357",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 60,
+      "faiss_rank": 3
+    },
+    {
+      "chunk_id": "85f04f52ecd3",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 44,
+      "faiss_rank": 11
+    },
+    {
+      "chunk_id": "a3e2e228784e",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 58,
+      "faiss_rank": 6
+    },
+    {
+      "chunk_id": "606bbc8f7543",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 79,
+      "faiss_rank": 1
+    },
+    {
+      "chunk_id": "bdecc87f8180",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 61,
+      "faiss_rank": 7
+    },
+    {
+      "chunk_id": "c56fe7138aff",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 48,
+      "faiss_rank": 13
+    },
+    {
+      "chunk_id": "5ec7d95bd997",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 65,
+      "faiss_rank": 9
+    },
+    {
+      "chunk_id": "ff3ccdd00534",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 43,
+      "faiss_rank": 19
+    },
+    {
+      "chunk_id": "15b2ac467abe",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 110,
+      "faiss_rank": 2
+    },
+    {
+      "chunk_id": "f309e5226203",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 78,
+      "faiss_rank": 8
+    },
+    {
+      "chunk_id": "3b2c6f96f4ad",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 68,
+      "faiss_rank": 18
+    },
+    {
+      "chunk_id": "2929e842aa50",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 102,
+      "faiss_rank": 17
+    },
+    {
+      "chunk_id": "bb57fbf1b0b7",
+      "doc_id": "413005__tk",
+      "bm25_rank": 0,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "3a7b0a374e21",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 0
+    },
+    {
+      "chunk_id": "7768b2667c24",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 1,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "8f20d4f67ebf",
+      "doc_id": "413005__sms",
+      "bm25_rank": 2,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "bda24934e59e",
+      "doc_id": "413005__sms",
+      "bm25_rank": 3,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "6c373720eee9",
+      "doc_id": "413005__sms",
+      "bm25_rank": 4,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "7e2d1012ef8c",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 4
+    },
+    {
+      "chunk_id": "bd0e2e79b8fc",
+      "doc_id": "413005__sms",
+      "bm25_rank": 5,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "7a32f5ed8e45",
+      "doc_id": "413005__sms",
+      "bm25_rank": 6,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "4f63760049a2",
+      "doc_id": "413004__tk",
+      "bm25_rank": 7,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "594fc2508b5a",
+      "doc_id": "413005__tk",
+      "bm25_rank": 8,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "c11927e30d3e",
+      "doc_id": "413005__sms",
+      "bm25_rank": 9,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "2c3900644d4f",
+      "doc_id": "413005__sms",
+      "bm25_rank": 10,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "946d6f1d0b4c",
+      "doc_id": "413004__sms",
+      "bm25_rank": 11,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "15246d300823",
+      "doc_id": "413004__flbe",
+      "bm25_rank": 12,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "dba983362623",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 12
+    },
+    {
+      "chunk_id": "85959e553fe0",
+      "doc_id": "413006__tk",
+      "bm25_rank": 13,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "bf16bb27e320",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 14,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "6abdae667c1f",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 14
+    },
+    {
+      "chunk_id": "eee0dd0349db",
+      "doc_id": "413006__sms",
+      "bm25_rank": 15,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "cb2b90539712",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 15
+    },
+    {
+      "chunk_id": "ced34cb423c0",
+      "doc_id": "413004__flbe",
+      "bm25_rank": null,
+      "faiss_rank": 16
+    },
+    {
+      "chunk_id": "61eeeb1a5d01",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 17,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "df7c64216adc",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 18,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "dc6cf542d2ce",
+      "doc_id": "413005__tk",
+      "bm25_rank": 19,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "739d67fc205d",
+      "doc_id": "413003__tk",
+      "bm25_rank": 20,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "111a94adf126",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 21,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "708fd00582c8",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 22,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "0f9bae1c01b8",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 23,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "5b9fee178062",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 24,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "82e02fabb894",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 25,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "a4c0543e08f0",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 26,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "56119370093c",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 27,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "651176f76803",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 28,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "198f4ebbc702",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 29,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "88fe9f9ea3a8",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 30,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "f74ed2a2a704",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 31,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "b850c7a35e8f",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 32,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "8f2baeca5f99",
+      "doc_id": "413006__flbe",
+      "bm25_rank": 33,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "831ae31edf52",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 34,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "ff5423681b2e",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 35,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "b4b2f1f7c4ae",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 36,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "3bfb5b2976d3",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 37,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "ec2b6863cd45",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 38,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "3a5fdb6b46e9",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 39,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "8afe94f7102f",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 40,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "fa08483f7ba1",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 41,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "7de6b21185c3",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 42,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "42b7cb9205dc",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 45,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "426b705ca807",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 46,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "404cc30da1c7",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 47,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "c1cdd12c5ad8",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 49,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "b7f957062730",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 50,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "c978fd996f8d",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 51,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "fdb852fb74f7",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 52,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "88a7cd0ab654",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 54,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "a6f033de9e11",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 55,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "ba8803dbd5ce",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 56,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "72a4cf73af87",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 57,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "aec440a801ce",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 59,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "7ac6e179ca75",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 62,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "2d5787382ca0",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 63,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "9bfa3577669b",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 64,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "50ac92ef174f",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 66,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "e67e871f4a70",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 67,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "03c14aada38c",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 69,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "49fa8a7ba311",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 70,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "cb5eec9cfa2e",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 71,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "b410d0707292",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 72,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "2ad13280e913",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 73,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "481e26a5b301",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 74,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "009a4e14de4f",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 75,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "4c8455c7afa6",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 76,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "85eabec998bc",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 77,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "78920417def4",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 80,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "5b8f191056f0",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 81,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "240cfd808f81",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 82,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "3c4d0893173f",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 83,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "338ade8c339a",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 84,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "2b4430cffd83",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 85,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "afbc374cda76",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 86,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "90bf5283bf35",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 87,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "cd84062f49ce",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 88,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "e6c932785235",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 89,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "85d76fbfc7ce",
+      "doc_id": "413005__sms",
+      "bm25_rank": 90,
+      "faiss_rank": null
+    },
+    {
+      "chunk_id": "f1f7cb51d158",
+      "doc_id": "413005__flbe",
+      "bm25_rank": 91,
+      "faiss_rank": null
+    }
+  ],
+  "gold_passage": [
+    "20ac483b5e5e"
+  ],
+  "gold_doc": [
+    "413005__flbe",
+    "413005__tk",
+    "413005__sms"
+  ]
+}

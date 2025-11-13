@@ -1,0 +1,133 @@
+{
+  "name": "LiAn GraphRAG Phase5",
+  "description": "Intent → GraphRAG → Recency/Regulatory rerank with SLA health checks",
+  "version": "0.5.0",
+  "nodes": [
+    {
+      "id": "input",
+      "type": "input",
+      "name": "UserQuery",
+      "outputs": ["text"]
+    },
+    {
+      "id": "intent_parse",
+      "type": "http_request",
+      "name": "IntentParse",
+      "config": {
+        "method": "POST",
+        "url": "http://localhost:8080/intent/parse",
+        "body": {"text": "{{ input.text }}"}
+      },
+      "outputs": ["intent", "slots", "normalized", "confidence", "threshold"]
+    },
+    {
+      "id": "kg_query",
+      "type": "http_request",
+      "name": "GraphRAGQuery",
+      "config": {
+        "method": "POST",
+        "url": "http://localhost:8081/kg/query",
+        "body": {
+          "text": "{{ input.text }}",
+          "intent": "{{ intent_parse.intent }}",
+          "slots": "{{ intent_parse.slots }}"
+        }
+      },
+      "outputs": ["plan", "results", "debug"]
+    },
+    {
+      "id": "sla_guard",
+      "type": "code",
+      "name": "LifecycleGuard",
+      "code": """
+recency = {{ kg_query.results }}
+flags = []
+for item in recency:
+    checks = item.get('score_breakdown', {}).get('recency', {}).get('sla_flags', {})
+    if checks and any(not ok for ok in checks.values()):
+        flags.append({
+            'doc_id': item.get('doc_id'),
+            'sla_flags': checks,
+            'timeline': item.get('extra', {}).get('recency', {}).get('timeline', {})
+        })
+output = {'alerts': flags, 'has_alerts': bool(flags)}
+"""
+    },
+    {
+      "id": "rerank",
+      "type": "http_request",
+      "name": "FreshrankRerank",
+      "config": {
+        "method": "POST",
+        "url": "http://localhost:8088/rerank",
+        "body": {
+          "query": "{{ kg_query.plan.query_texts[0] }}",
+          "intent": "{{ intent_parse.intent }}",
+          "documents": "{{ kg_query.results }}"
+        }
+      },
+      "outputs": ["documents"]
+    },
+    {
+      "id": "answer",
+      "type": "llm",
+      "name": "AnswerSynthesizer",
+      "prompt": """
+基于下列候选文档与权重解释生成结论：
+文档: {{ rerank.documents }}
+SLA 告警: {{ sla_guard.alerts }}
+请引用 doc_id + page_no + recency/regulatory 信息解释答案。
+""",
+      "outputs": ["message"]
+    },
+    {
+      "id": "dashboard",
+      "type": "visualizer",
+      "name": "Diagnostics",
+      "config": {
+        "panels": [
+          {
+            "type": "table",
+            "title": "Score Breakdown",
+            "bindings": "{{ rerank.documents }}",
+            "columns": [
+              "doc_id",
+              "score_breakdown.base",
+              "score_breakdown.recency_multiplier",
+              "score_breakdown.regulatory_multiplier",
+              "score_breakdown.regulatory_bonus",
+              "score_breakdown.recency.decay_curve.age_days",
+              "score_breakdown.recency.sla_flags"
+            ]
+          },
+          {
+            "type": "alert",
+            "title": "Lifecycle SLA Alerts",
+            "bindings": "{{ sla_guard.alerts }}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "output",
+      "type": "output",
+      "name": "FinalResponse",
+      "inputs": {
+        "text": "{{ answer.message }}",
+        "diagnostics": "{{ dashboard }}"
+      }
+    }
+  ],
+  "edges": [
+    ["input", "intent_parse"],
+    ["intent_parse", "kg_query"],
+    ["kg_query", "sla_guard"],
+    ["kg_query", "rerank"],
+    ["rerank", "answer"],
+    ["sla_guard", "dashboard"],
+    ["rerank", "dashboard"],
+    ["answer", "output"],
+    ["dashboard", "output"]
+  ]
+}
+

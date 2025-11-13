@@ -40,11 +40,17 @@ class RecencyRanker:
         if expired and stale_cap is not None:
             score = min(score, stale_cap)
 
-        hits = regulatory_weight.lookup_hits(
-            self.tag_index,
-            doc.get("doc_id", "unknown"),
-            doc.get("chunk_id"),
-        )
+        overrides = doc.get("regulatory_hits")
+        if overrides:
+            hits = regulatory_weight.ensure_hits(overrides)
+        else:
+            hits = regulatory_weight.lookup_hits(
+                self.tag_index,
+                doc.get("doc_id", "unknown"),
+                doc.get("chunk_id"),
+            )
+        if not hits and doc.get("regulatory_tags"):
+            hits = regulatory_weight.ensure_hits(doc["regulatory_tags"])
         adjustment = regulatory_weight.compute_adjustment(hits, self.weight_config)
         score = score * adjustment["multiplier"] + adjustment["bonus"]
 

@@ -1,7 +1,7 @@
 {
   "name": "FreshrankRerank",
   "type": "http",
-  "description": "Regulatory-aware recency reranker for insurance sales corpus",
+  "description": "Regulatory-aware recency reranker for insurance sales corpus (exposes score breakdown for Dify dashboards)",
   "method": "POST",
   "url": "http://localhost:8088/rerank",
   "headers": {
@@ -11,6 +11,8 @@
   "test_instructions": [
     "1. 先用任务二的召回节点填充 normalized_query / intent / topk_candidates。",
     "2. 发送 POST 请求到 http://localhost:8088/rerank 并检查 HTTP 200。",
-    "3. 校验响应中的 score_breakdown.w_regulatory 与 tags/evidence 字段后，再交给答案生成节点。"
+    "3. 校验响应中的 score_breakdown.w_regulatory 与 tags/evidence 字段后，再交给答案生成节点。",
+    "4. 在 Dify 前端展示 score_breakdown.recency.decay_curve、score_breakdown.recency.sla_flags 以及 extra.regulatory.contributions，便于解释排序结果。",
+    "5. 将 LifecycleGuard 节点的 alerts 绑定到仪表板，若 has_alerts=true 则提示运营排查摄取/解析 SLA。"
   ]
 }

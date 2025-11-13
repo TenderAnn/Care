@@ -1,0 +1,47 @@
+{
+  "policy_single_column": {
+    "publish_date": "2024-02-01T00:00:00+00:00",
+    "effective_date": "2024-02-15T00:00:00+00:00",
+    "expired": false,
+    "regulatory_hits": [
+      {
+        "tag": "consumer_protection",
+        "confidence": 0.82,
+        "evidence": ["投诉处理流程与客户告知机制符合监管要求"],
+        "source": "internal_audit"
+      },
+      {
+        "tag": "esg",
+        "confidence": 0.76,
+        "evidence": ["产品收益用于绿色投资组合"],
+        "source": "esg_report"
+      }
+    ]
+  },
+  "policy_claims_appendix": {
+    "publish_date": "2023-03-01T00:00:00+00:00",
+    "effective_date": "2023-03-15T00:00:00+00:00",
+    "expired": false,
+    "regulatory_hits": [
+      {
+        "tag": "sales_compliance",
+        "confidence": 0.78,
+        "evidence": ["理赔材料清单包含双录与风险提示"],
+        "source": "compliance_manual"
+      }
+    ]
+  },
+  "policy_double_column": {
+    "publish_date": "2021-08-01T00:00:00+00:00",
+    "effective_date": "2021-08-15T00:00:00+00:00",
+    "expired": true,
+    "regulatory_hits": [
+      {
+        "tag": "rating",
+        "confidence": 0.7,
+        "evidence": ["产品退市公告附带评级下调说明"],
+        "source": "regulatory_notice"
+      }
+    ]
+  }
+}

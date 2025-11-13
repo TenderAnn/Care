@@ -1,0 +1,79 @@
+{
+  "kg_precision": 0.4444444444444444,
+  "kg_recall": 1.0,
+  "rerank_precision": 0.4444444444444444,
+  "rerank_recall": 1.0,
+  "breakdown_ok": true,
+  "cases": [
+    {
+      "query": "等待期是多少",
+      "expected_doc_ids": [
+        "policy_single_column"
+      ],
+      "topk": 3,
+      "kg_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "rerank_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "kg_precision": 0.3333333333333333,
+      "kg_recall": 1.0,
+      "rerank_precision": 0.3333333333333333,
+      "rerank_recall": 1.0,
+      "breakdown_ok": true,
+      "notes": "等待期条款应回到主产品条款"
+    },
+    {
+      "query": "免赔额怎么规定",
+      "expected_doc_ids": [
+        "policy_claims_appendix",
+        "policy_single_column"
+      ],
+      "topk": 3,
+      "kg_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "rerank_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "kg_precision": 0.6666666666666666,
+      "kg_recall": 1.0,
+      "rerank_precision": 0.6666666666666666,
+      "rerank_recall": 1.0,
+      "breakdown_ok": true,
+      "notes": "免赔额与理赔材料需覆盖主条款与附录"
+    },
+    {
+      "query": "理赔流程表在哪里",
+      "expected_doc_ids": [
+        "policy_claims_appendix"
+      ],
+      "topk": 3,
+      "kg_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "rerank_hits": [
+        "policy_single_column",
+        "policy_claims_appendix",
+        "policy_double_column"
+      ],
+      "kg_precision": 0.3333333333333333,
+      "kg_recall": 1.0,
+      "rerank_precision": 0.3333333333333333,
+      "rerank_recall": 1.0,
+      "breakdown_ok": true,
+      "notes": "理赔流程表位于理赔附录"
+    }
+  ]
+}

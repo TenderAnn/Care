@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 
 from .fusion import run as fusion_run
-from .graph_backend import query as graph_query
 from .models import PlanOut, QueryIn
 from .services.intent_client import parse as intent_parse
 from .services.intent_client import rewrite as intent_rewrite
@@ -46,13 +45,17 @@ async def kg_query(payload: QueryIn):
         rewrites = [normalized]
 
     filters = derive_graph_filters(intent, slots)
+    plan_queries = [payload.text] + rewrites[:2]
+    fusion_payload = fusion_run(filters, plan_queries, topk=20)
     plan = {
         "graph_filters": filters,
-        "query_texts": [payload.text] + rewrites[:2],
+        "query_texts": plan_queries,
         "strategy": ["graph-first", "vector-fallback"],
+        "graph_plan": fusion_payload.get("plan", {}),
         "clarify": should_clarify,
     }
-    results = fusion_run(filters, plan["query_texts"], topk=20)
+    results = fusion_payload.get("results", [])
+    fusion_debug = fusion_payload.get("debug", {})
 
     return PlanOut(
         ok=True,
@@ -67,6 +70,6 @@ async def kg_query(payload: QueryIn):
         debug={
             "parse_raw": parse_result,
             "rewrite_raw": rewrite_result,
-            "graph_hits": graph_query(filters).get("hits", []),
+            "fusion": fusion_debug,
         },
     )

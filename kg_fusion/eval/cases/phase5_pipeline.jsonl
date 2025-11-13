@@ -1,0 +1,3 @@
+{"query": "等待期是多少", "expected_doc_ids": ["policy_single_column"], "topk": 3, "notes": "等待期条款应回到主产品条款"}
+{"query": "免赔额怎么规定", "expected_doc_ids": ["policy_claims_appendix", "policy_single_column"], "topk": 3, "notes": "免赔额与理赔材料需覆盖主条款与附录"}
+{"query": "理赔流程表在哪里", "expected_doc_ids": ["policy_claims_appendix"], "topk": 3, "notes": "理赔流程表位于理赔附录"}
